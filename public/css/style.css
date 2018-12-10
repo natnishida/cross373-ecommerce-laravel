@@ -1,0 +1,582 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    align-items: center !important;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* menu */
+
+nav {
+  height: 12vh;
+}
+
+/* .navbar {
+  margin-bottom: 0;
+  color: white;
+  margin: auto;
+  background-color: black;
+  border-color: rgba(231, 231, 231, 0);
+} */
+
+.navbar-nav {
+  margin: auto;
+
+}
+
+.imagem-auth{
+  background-image: url('../img/imgregistro.jpg');
+  background-size: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+
+
+}
+
+/* Horarios e galeria */
+
+.parallaxhorarios {
+  background-image: url('../img/bgfitness1.jpg');
+  background-size: 100%;
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.parallaxgaleria {
+  background-image: url('../img/bgfitness1.jpg');
+  background-size: 100%;
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h2 {
+  margin: 0 0 20px 0;
+  font-weight: 500;
+  font-size: 34px;
+  color: #fff;
+  text-transform: uppercase;
+
+}
+
+.textogaleria {
+  text-align: center;
+  color: white;
+  padding-top: 40px;
+}
+
+.textohorarios {
+  text-align: center;
+  color: white;
+  padding: 50px;
+
+}
+
+/* Frase de efeito com parallax */
+
+.fraseefeito {
+  background-image: url('../img/bgfitness1.jpg');
+  background-size: 100%;
+  width: 100%;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  padding: 15px 0 0 0;
+  text-align: center;
+}
+
+p {
+  margin: auto;
+}
+
+/* Sobre nós (imagem e texto) */
+
+.container-fluid {
+  padding: 0;
+}
+
+.sobrenos {
+  padding: 0;
+  background-image: url('../img/bgfitness1.jpg');
+  background-size: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+
+}
+
+.textosobre {
+  color: white;
+  background-color: rgba(255, 255,255, 0.3);
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.txtsobre{
+  font-size: 1.051em;
+  color: #FFF;
+  text-align: center;
+}
+
+.imgsobre {
+  background-image: url('../img/imgsobrenos.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+hr {
+  height: 2px;
+  width: 70px;
+  text-align: center;
+  position: relative;
+  background: #cc1f34;
+  border: 0;
+}
+
+
+/* divs dos horários e modalidades */
+
+h2.menu-section-title {
+  font-family: sans-serif;
+  color: black;
+  margin: auto;
+  text-align: center;
+}
+
+.menu-section {
+  padding: 50px;
+}
+
+.modhorario {
+  border-bottom: 0.5px dotted #cc1f34;
+  width: 10%;
+  margin: auto;
+  text-align: center;
+}
+
+.descricaomod {
+  margin: auto;
+  text-align: center;
+}
+
+.botaocontato {
+  cursor: pointer;
+
+  text-align: center;
+  margin: 0;
+}
+
+.divbotao {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+
+
+/* grid das fotos */
+
+.row {
+  margin: 0;
+}
+
+.galeria {
+  margin: 30px 0;
+}
+
+
+/* Newsletter e footer */
+
+.newsletter {
+  background-color: #8D8D8D;
+  padding-top: 15px;
+}
+
+.btn {
+  margin-left: 1%;
+}
+
+.textonews {
+  text-align: right;
+}
+
+.textonews p {
+  margin-top: 0px;
+  margin-top: 5px;
+  font-size: 20px;
+  text-align: right;
+}
+
+.conecte_footer {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.imgicone {
+  display: flex;
+  justify-content: center;
+}
+.imgicone img {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.linksfooter a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.linksfooter a:hover {
+  color: #CCC;
+}
+
+/* teste*/
+
+.main_container {
+  height: 46px;
+  width: auto;
+  padding: 3px;
+  margin: 2px;
+  max-width: 300px;
+  background-color: #555555;
+  align-content: center;
+}
+.container_inner {
+  height: auto;
+  border: none;
+  background-color: #555555;
+  max-width: 290px;
+  vertical-align: center;
+  padding-top: 12px;
+  padding-left: 10px;
+  align-content: center;
+}
+ .num_tiles {
+  width:30px;
+  height: 30px;
+  background-color: #888888;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+  line-height: 20px;
+  padding: 3px;
+  margin: 1.5px;
+  font-family: verdana;
+  vertical-align: center;
+}
+
+/* store */
+
+.bannerstore {
+  height: 400px;
+  background-image: url('../img/bgstore.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+.bannerbg {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 400px;
+  margin: 0;
+  padding: 0;
+}
+.planos {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.planos>hr{
+  margin: 0 auto;
+}
+
+
+
+/* menu store */
+.menustore {
+  background-color: black;
+
+
+}
+
+.menublank {
+  height: 100%;
+}
+
+.titulomenu {
+  text-align: center;
+  padding: 10px 0;
+  color: white;
+}
+
+.listamenu {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  color: white;
+}
+
+.listamenu li {
+  text-align: center;
+  margin: auto;
+}
+
+#titulobanner {
+
+  font-weight: bold;
+  font-size: 4em;
+  text-align: center;
+  padding: 20vh;
+}
+
+.mapa {
+  padding-top:15px;
+  padding-left:100px;
+}
+.container-produtos {
+  width: 60%;
+}
+
+
+
+/* Pagina produto individual */
+
+.mainphoto>img {
+  width: 400px;
+  height: 100%;
+}
+
+.photo_item>img {
+  margin-top: 5px;
+  margin-right: 5px;
+  width: 80px;
+  height: 100%;
+}
+
+#todoproduto {
+  background-color: #f9f9f9;
+}
+
+.carrinho {
+  padding-top:30px;
+  background-color: #f9f9f9;
+}
+
+.caixacarrinho {
+  margin-top: 25px;
+  width: 100%;
+  height: 260px;
+  background-color: #efefef;
+  border-radius: 10px;
+}
+
+.caixacarrinho>h4 {
+  padding-top:15px;
+  margin-left:20px;
+}
+
+.botaocarrinho {
+  padding-top: 25px;
+}
+
+/*Página de Read do CRUD de Admin - Produtos/Clientes/Planos*/
+
+.lista-admin {
+  text-align: center !important;
+}
+.tabela-admin {
+  width: 90%;
+  margin: 1% auto ;
+  text-align: center;
+}
+.tabela-admin th,td{
+  border: 1px solid black;
+  padding: 10px;
+
+}
+.tabela-admin tr:hover {
+  background-color: #f5f5f5;
+}
+
+.tabela-admin th {
+  background-color: darkred;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.mensagem-admin {
+  color: black;
+}
+
+
+
+@media (min-width: 386px) and (max-width: 1250px)  {
+
+  .card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+
+  #esconder {
+    display: none;
+  }
+
+  .imgsobre {
+    display: none;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 810px) {
+
+  h2 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 767px){
+
+  .newsletter {
+    padding-bottom: 10px;
+  }
+
+  .mapa {
+    padding-left: 25px;
+  }
+
+  #itemstore {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 690px) {
+
+  h2 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .container-produtos {
+    width: 100%;
+  }
+}
+
+@media (max-width: 550px) {
+
+  h2 {
+    font-size: 18px;
+  }
+
+  #titulobanner {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+
+  h2 {
+    font-size: 16px;
+  }
+
+  #titulobanner {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 460px) {
+
+  #titulobanner {
+    font-size: 33px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 450px)  {
+
+  #titulobanner {
+    font-size: 25px;
+  }
+}
